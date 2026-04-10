@@ -1,0 +1,33 @@
+/* FOR DISPLAYING THE PAGES */
+.page { 
+    display: none; 
+}
+.page.active {
+    display: block; 
+}
+
+body.not-authenticated .role-logged-in { 
+    display: none; 
+}
+
+body.authenticated .role-logged-out { 
+    display: none;
+}
+
+.role-admin { 
+    display: none; 
+}
+
+body.is-admin .role-admin { 
+    display: block; 
+}
+
+/* EMPLOYEES */
+.btn_emp {
+    height: 3rem;
+}
+
+/* REQUEST */
+#Inp_ReqQuan {
+    width: 70px;
+}
